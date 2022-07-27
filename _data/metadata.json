@@ -41,5 +41,9 @@
   {
     "title": "search",
     "url": "/search"
-  }]
+  }],
+  "config": {
+    "showDateList": true,
+    "showDatePost": true
+  }
 }

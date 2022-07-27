@@ -4,7 +4,7 @@ templateClass: tmpl-post
 ---
 <h1 class="title">{{ title }}</h1>
 <div class="subtitle">
-<time class="post" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+{% if metadata.config.showDatePost %}<time class="post" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>{% endif %}
 {%- for tag in tags | filterTagList %}
 {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 <a class="tag" href="{{ tagUrl | url }}" >{{ tag }}</a>
