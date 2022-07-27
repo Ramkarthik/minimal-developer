@@ -2,7 +2,7 @@
 layout: layouts/home.njk
 ---
 <p>This is where you write a quick intro about yourself or the blog or both.</p>
-<h3>Recent Posts</h3>
+<h2>Recent Posts</h2>
 {% set maxPosts = collections.posts.length | min(3) %}
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}

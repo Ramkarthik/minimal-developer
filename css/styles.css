@@ -1,1 +1,83 @@
-html{max-width:600px;margin:0 auto;background-color:#282a36;color:#f8f8f2}body{line-height:1.6;font-size:18px;margin:1em auto;padding:0 .55em}header{display:flex}header ul{float:right}header span{list-style-type:none;display:inline;padding:0 .2rem 0 .2rem;vertical-align:middle}a{text-decoration:none;color:#bd93f9}.tag,time.post{color:#6272a4;text-transform:uppercase;font-size:10.5px;border:#6272a4 solid .5px;border-radius:2px;padding:2px}time.post{color:#f8f8f2;border-color:#f8f8f2}ul.nav{list-style:none;padding-left:0}h1.title{margin-bottom:-10px}pre,code{background-color:#44475a;color:#f8f8f2;border-radius:5px;padding:5px;font-size:12px}.inserted-sign{background-color:hsl(126,31%,39%)}.token.prefix.inserted,.token.prefix.deleted{background-color:#15202b}.deleted-sign{background-color:hsl(0,51%,37%)}mark{background-color:#f1fa8c}.post-nav-next{float:right}blockquote{background-color:#44475a;border-left:10px solid #ccc;margin:1.5em 10px;padding:.5em 10px}blockquote p{display:inline}
+html{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #282a36;
+    color:#ffffff;
+}
+body {
+    line-height: 1.6;
+font-size: 18px;
+margin: 1em auto;
+padding: 0 0.55em;
+}
+header {
+    display: flex;
+}
+header ul{
+    float: right;
+}
+header span {
+    list-style-type:none;
+    display: inline;
+    padding:0 0.2rem 0 0.2rem;
+    vertical-align: middle;
+}
+  a {
+    text-decoration: none;
+    color: #bd93f9;
+  }
+  .tag,time.post {
+    color: #6272a4;
+    text-transform: uppercase;
+    font-size: 10.5px;
+    border: #6272a4 solid 0.5px;
+    border-radius: 2px;
+    padding: 2px;
+  }
+
+  time.post{
+    color: #ffffff;
+    border-color: #f8f8f2;
+  }
+  ul.nav {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  h1.title{
+    margin-bottom: -10px;
+  }
+
+  pre, code {
+    background-color: #44475a;
+    color: #f8f8f2;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .inserted-sign {
+    background-color: hsl(126, 31%, 39%);
+  }
+  .token.prefix.inserted, .token.prefix.deleted {
+    background-color: #15202b;
+  }
+  .deleted-sign {
+    background-color: hsl(0, 51%, 37%);
+  }
+  mark {
+    background-color: #f1fa8c;
+  }
+  .post-nav-next{
+    float: right;
+  }
+
+  blockquote {
+    background-color: #44475a;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+  }
+  
+  blockquote p {
+    display: inline;
+  }
