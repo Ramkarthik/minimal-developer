@@ -17,5 +17,29 @@
     "name": "Your Name Here",
     "email": "youremailaddress@example.com",
     "url": "https://example.com/about-me/"
-  }
+  },
+  "nav": [{
+    "title": "home",
+    "url": "/"
+  },
+  {
+    "title": "blog",
+    "url": "/blog"
+  },
+  {
+    "title": "about",
+    "url": "/about"
+  },
+  {
+    "title": "contact",
+    "url": "/contact"
+  },
+  {
+    "title": "rss",
+    "url": "/feed/feed.xml"
+  },
+  {
+    "title": "search",
+    "url": "/search"
+  }]
 }
